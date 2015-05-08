@@ -8,11 +8,10 @@ cp -r vimrcs ~/.vim_config/
 cat > ~/.vimrc << END
 set runtimepath+=~/.vim_config
 
-"source ~/.vim_config/vimrcs/pathogen_config.vim
 source ~/.vim_config/vimrcs/vundle_config.vim
+source ~/.vim_config/vimrcs/plugins_config.vim
 source ~/.vim_config/vimrcs/basic.vim
 source ~/.vim_config/vimrcs/extended.vim
-source ~/.vim_config/vimrcs/plugins_config.vim
 
 try
 source ~/.vim_config/vimrcs/my_configs.vim

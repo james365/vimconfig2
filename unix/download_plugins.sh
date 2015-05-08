@@ -24,7 +24,7 @@ fi
 # download and install bundles through Vundle in this repository
 echo "Update vim-plugins."
 cd ${ORIGINAL_PATH}
-vim -u plugin_list --cmd "set rtp=./.vim_config,\$VIMRUNTIME,./.vim_config/after" +PluginClean +PluginUpdate +qall
+vim -u download_plugin_list.vim --cmd "set rtp=./.vim_config,\$VIMRUNTIME,./.vim_config/after" +PluginClean +PluginUpdate +qall
 
 # go back
 cd ${ORIGINAL_PATH}
