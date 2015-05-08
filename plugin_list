@@ -1,0 +1,32 @@
+
+set nocompatible " be iMproved, required
+filetype off " required
+
+let cwd = getcwd()
+exec 'set rtp+=' . fnameescape ( cwd . '/.vim_config/bundle/Vundle.vim/' )
+call vundle#rc(cwd.'/.vim_config/bundle/')
+
+" =======================================================
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'dimasg/vim-mark'
+"Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'scrooloose/NERDTree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-markdown'
+Plugin 'suan/vim-instant-markdown'
+Plugin 'scrooloose/syntastic'
+Plugin 'rhysd/accelerated-jk'
+Plugin 'yonchu/accelerated-smooth-scroll'
+Plugin 'dkprice/vim-easygrep'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'armasm'
+Plugin 'tomasr/molokai'
+Plugin 'nathanaelkane/vim-indent-guides'
+
+" =======================================================
+
+filetype plugin indent on " required
+
