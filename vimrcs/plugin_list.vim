@@ -48,4 +48,6 @@ Plugin 'tomasr/molokai'
 " 缩进对齐线 
 Plugin 'nathanaelkane/vim-indent-guides'
 
+Plugin 'C-fold'
+
 " =======================================================
