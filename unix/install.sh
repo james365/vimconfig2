@@ -1,4 +1,6 @@
 #!/bin/bash
+TOPDIR=$(pwd)
+
 rm -rf ~/.vim
 rm -rf ~/.vim_config
 
@@ -21,12 +23,12 @@ END
 
 if [ -d ./plugins_install ]
 then
-    pushd ./plugins_install
+    cd ./plugins_install
     for name in *.sh
     do
         sh ./$name
     done
-    popd
+    cd $TOPDIR
 fi
 
 

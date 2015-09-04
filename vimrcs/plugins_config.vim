@@ -13,7 +13,11 @@ let g:tagbar_left = 0
 
 let g:tagbar_width = 30
 
-let g:tagbar_autofocus = 0
+let g:tagbar_autofocus = 1
+
+let g:tagbar_autoclose = 0
+
+let g:tagbar_sort = 0
 
 nnoremap <silent> <F8> :TagbarToggle<CR>
 
@@ -34,6 +38,10 @@ nnoremap <silent> <F8> :TagbarToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 map <F7> :NERDTreeToggle<CR>
 let g:NERDTreeMinimalUI  = 1
+let g:NERDTreeQuitOnOpen = 1
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " CTRLP 模糊匹配文件，快速打开应用
