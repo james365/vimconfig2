@@ -7,10 +7,10 @@ Plugin 'majutsushi/tagbar'
 Plugin 'dimasg/vim-mark'
 
 " airline 状态栏 
-"Plugin 'bling/vim-airline'
+Plugin 'bling/vim-airline'
 
 " powerline
-Plugin 'Lokaltog/vim-powerline'
+"Plugin 'Lokaltog/vim-powerline'
 
 " 文件管理
 Plugin 'scrooloose/NERDTree'
@@ -49,7 +49,5 @@ Plugin 'tomasr/molokai'
 Plugin 'nathanaelkane/vim-indent-guides'
 
 "
-Plugin 'brookhong/cscope.vim'
-
-
+Plugin 'tczengming/autoload_cscope.vim'
 " =======================================================
