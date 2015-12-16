@@ -52,3 +52,6 @@ let g:accelerated_jk_acceleration_table = [10, 20, 30, 35, 40, 45, 50]
 
 nnoremap n nzzzv
 nnoremap N Nzzzv
+
+" cscope quickfix 
+set cscopequickfix=s-,c-,d-,i-,t-,e-

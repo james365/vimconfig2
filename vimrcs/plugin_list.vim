@@ -50,6 +50,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 
 "
 Plugin 'tczengming/autoload_cscope.vim'
-Plugin 'brookhong/cscope.vim'
+Plugin 'chazy/cscope_maps'
 
 " =======================================================
