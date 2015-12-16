@@ -7,18 +7,14 @@
 """"""""""""""""""""""""""""""
 
 try
-    "colorscheme zenburn  
-    colorscheme molokai 
+    colorscheme zenburn  
+    "colorscheme molokai 
 catch
 endtry
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => key map  
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 使用超级用户保存 
-cmap w!! SudoWrite %
 
 " visual mode下用I, A命令时, 自动转为block visual mode 
 vnoremap <expr> I ForceBlockwiseVisual('I')
@@ -56,30 +52,3 @@ let g:accelerated_jk_acceleration_table = [10, 20, 30, 35, 40, 45, 50]
 
 nnoremap n nzzzv
 nnoremap N Nzzzv
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" cscope 设置
-" 包括 autoload_cscope.vim 插件  
-""""""""""""""""""""""""""""""""""""""""""""""""""
-if has("cscope")
-    " 使用quickfix显示搜索结果 
-    set cscopequickfix=g-,s-,d-,c-,t-,e-,f-,i-
-    
-    " 快捷键设置
-    " s: Find this C symbol                                                       
-    " g: Find this definition
-    " d: Find functions called by this function
-    " c: Find functions c   alling this function
-    " t: Find this text string
-    " e: Find this egrep pattern
-    " f: Find this file
-    " i: Find files #including this file
-    map <leader>fs :cs find s <C-R>=expand("<cword>")<CR><CR>
-    map <leader>fg :cs find g <C-R>=expand("<cword>")<CR><CR>
-    map <leader>fc :cs find c <C-R>=expand("<cword>")<CR><CR>
-    map <leader>ft :cs find t <C-R>=expand("<cword>")<CR><CR>
-    map <leader>fe :cs find e <C-R>=expand("<cword>")<CR><CR>
-    map <leader>ff :cs find f <C-R>=expand("<cfile>")<CR><CR>
-    map <leader>fi :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-    map <leader>fd :cs find d <C-R>=expand("<cword>")<CR><CR> 
-endif

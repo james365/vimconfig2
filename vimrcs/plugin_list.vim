@@ -40,9 +40,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'armasm'
 
 " 主题 
-"Plugin 'jnurmine/Zenburn'
+Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
-"Plugin 'sickill/vim-monokai'
+Plugin 'sickill/vim-monokai'
 "Plugin 'altercation/vim-colors-solarized'
 
 " 缩进对齐线 
@@ -50,4 +50,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 
 "
 Plugin 'tczengming/autoload_cscope.vim'
+Plugin 'brookhong/cscope.vim'
+
 " =======================================================
