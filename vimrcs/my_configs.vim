@@ -7,7 +7,8 @@
 """"""""""""""""""""""""""""""
 
 try
-    colorscheme zenburn  
+    "colorscheme zenburn  
+    colorscheme monokai
     "colorscheme molokai 
 catch
 endtry
