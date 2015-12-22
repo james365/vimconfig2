@@ -97,12 +97,21 @@ let g:EasyGrepJumpToMatch=0
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " molokai colorscheme config
 """"""""""""""""""""""""""""""""""""""""""""""""""
-let g:molokai_original = 0
+let g:molokai_original = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " syntax highlighting for arm assembler
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let asmsyntax='armasm'
 let filetype_inc='armasm'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" MiniBufExplorer
+""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <C-Left> :MBEbp<CR>
+noremap <C-Right> :MBEbn<CR>
+map <Leader>mb :MBEToggle<cr>
+
+
 
 

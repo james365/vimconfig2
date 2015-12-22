@@ -8,8 +8,8 @@
 
 try
     "colorscheme zenburn  
-    colorscheme monokai
-    "colorscheme molokai 
+    "colorscheme monokai
+    colorscheme molokai 
 catch
 endtry
 

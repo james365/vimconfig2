@@ -52,4 +52,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tczengming/autoload_cscope.vim'
 Plugin 'chazy/cscope_maps'
 
+"Plugin 'jlanzarotta/bufexplorer'
+Plugin 'fholgado/minibufexpl.vim'
+
 " =======================================================
