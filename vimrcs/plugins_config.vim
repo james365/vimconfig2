@@ -113,5 +113,10 @@ noremap <C-Right> :MBEbn<CR>
 map <Leader>mb :MBEToggle<cr>
 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" indent-guides
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" 2 级后显示对齐线
+let g:indent_guides_start_level = 2 
 
 
