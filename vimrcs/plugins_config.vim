@@ -97,7 +97,7 @@ let g:EasyGrepJumpToMatch=0
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " molokai colorscheme config
 """"""""""""""""""""""""""""""""""""""""""""""""""
-let g:molokai_original = 1
+let g:molokai_original = 0
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " syntax highlighting for arm assembler
