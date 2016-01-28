@@ -135,9 +135,10 @@ set t_Co=256
 
 " Set extra options when running in GUI mode
 if has("gui_running")
-    set guioptions-=T " hide tools bar
-    set guioptions-=e
+"    set guioptions-=T " hide tools bar
+"    set guioptions-=e
     set guitablabel=%M\ %t
+    set guifont=Monaco 10
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language

@@ -43,7 +43,8 @@ Plugin 'armasm'
 Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
 Plugin 'sickill/vim-monokai'
-"Plugin 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-vividchalk'
 
 " 缩进对齐线 
 "Plugin 'nathanaelkane/vim-indent-guides'

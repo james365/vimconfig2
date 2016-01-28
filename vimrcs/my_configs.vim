@@ -9,7 +9,9 @@
 try
     "colorscheme zenburn  
     "colorscheme monokai
-    colorscheme molokai 
+    "colorscheme molokai 
+    colorscheme solarized 
+    "colorscheme vividchalk
 catch
 endtry
 
@@ -56,3 +58,7 @@ nnoremap N Nzzzv
 
 " cscope quickfix 
 set cscopequickfix=s-,c-,d-,i-,t-,e-
+
+" man 
+source $VIMRUNTIME/ftplugin/man.vim
+cmap man Man
