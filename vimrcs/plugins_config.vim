@@ -9,8 +9,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let g:tagbar_ctags_bin = '/usr/bin/ctags'
 
-let g:tagbar_left = 1
-
 let g:tagbar_width = 30
 
 let g:tagbar_autofocus = 1
@@ -36,10 +34,9 @@ nnoremap <silent> <F8> :TagbarToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-map <C-F8> :NERDTreeToggle<CR>
+nnoremap <F7> :NERDTreeToggle<CR>
 let g:NERDTreeMinimalUI  = 1
 let g:NERDTreeQuitOnOpen = 1
-let g:NERDTreeWinPos     = "right" 
 let g:NERDTreeIgnore    =['\~$', '.o$[[file]]', '.so$[[file]]']
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
