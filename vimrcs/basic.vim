@@ -211,12 +211,6 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-
-
-" tab switch windows 
-map <tab> <C-W>w
-map <S-Tab> <C-W>W
-
 " Close the current buffer
 map <leader>bd :Bclose<cr>
 
