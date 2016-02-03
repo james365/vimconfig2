@@ -57,4 +57,7 @@ Plugin 'chazy/cscope_maps'
 "Plugin 'jlanzarotta/bufexplorer'
 Plugin 'fholgado/minibufexpl.vim'
 
+" 排版对齐
+Plugin 'godlygeek/tabular'
+
 " =======================================================
