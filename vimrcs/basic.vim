@@ -311,8 +311,8 @@ map <leader>g :Ack
 "
 map <leader>cc :botright cope<cr>
 map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
-map <F4> :cn<cr>
-map <F3> :cp<cr>
+nmap <F4> :cn<cr>
+nmap <F3> :cp<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
