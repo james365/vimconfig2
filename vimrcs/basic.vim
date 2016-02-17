@@ -119,6 +119,9 @@ set tm=500
 " show cursorline
 set cursorline 
 
+" show linenum
+set number
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -138,7 +141,7 @@ if has("gui_running")
 "    set guioptions-=T " hide tools bar
 "    set guioptions-=e
     set guitablabel=%M\ %t
-    set guifont=Monaco 10
+    set guifont=Monaco\ 11
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -197,10 +200,6 @@ vnoremap <silent> # :call VisualSelection('b', '')<CR>
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
-
-" Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-"map <space> /
-"map <C-space> ?
 
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>

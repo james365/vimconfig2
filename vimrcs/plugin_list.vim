@@ -36,6 +36,9 @@ Plugin 'dkprice/vim-easygrep'
 " 代码注释/取消注释快捷工具
 Plugin 'scrooloose/nerdcommenter'
 
+" doxygen 注释工具
+Plugin 'DoxygenToolkit.vim'
+
 " Syntax highlighting for ARM assembler
 Plugin 'armasm'
 
