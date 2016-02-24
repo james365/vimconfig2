@@ -63,4 +63,7 @@ Plugin 'fholgado/minibufexpl.vim'
 " 排版对齐
 Plugin 'godlygeek/tabular'
 
+" 代码补全 
+Plugin 'Valloric/YouCompleteMe'
+
 " =======================================================
