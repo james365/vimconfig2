@@ -159,7 +159,7 @@ set fileencodings=ucs-bom,utf-8,cp936
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
 set nowb
-"set noswapfile
+set noswapfile
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -184,6 +184,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" highlight column 
+set colorcolumn=80
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
