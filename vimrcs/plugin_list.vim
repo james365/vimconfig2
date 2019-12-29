@@ -64,6 +64,8 @@ Plugin 'fholgado/minibufexpl.vim'
 Plugin 'godlygeek/tabular'
 
 " 代码补全 
+if v:version > 704 || (v:version == 704 && has( 'patch1578' ))
 Plugin 'Valloric/YouCompleteMe'
+endif 
 
 " =======================================================

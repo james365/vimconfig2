@@ -9,8 +9,8 @@
 try
     "colorscheme zenburn  
     "colorscheme monokai
-    "colorscheme molokai 
-    colorscheme solarized 
+    colorscheme molokai 
+    "colorscheme solarized 
     "colorscheme vividchalk
 catch
 endtry
