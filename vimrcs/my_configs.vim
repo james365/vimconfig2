@@ -61,6 +61,3 @@ set cscopequickfix=s-,c-,d-,i-,t-,e-
 " 使用 buf 打开 quickfix 中条目(默认以tab方式打开)
 set switchbuf=useopen
 
-" man 
-source $VIMRUNTIME/ftplugin/man.vim
-cmap man Man

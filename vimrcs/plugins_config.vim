@@ -113,3 +113,10 @@ map <Leader>mb :MBEToggle<cr>
 let g:indent_guides_start_level = 2 
 let g:indentLine_char = '┆'
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" yyq123/vim-syntax-logfile
+""""""""""""""""""""""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.log set filetype=log
+
+

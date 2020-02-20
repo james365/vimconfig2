@@ -67,5 +67,6 @@ Plugin 'godlygeek/tabular'
 if v:version > 704 || (v:version == 704 && has( 'patch1578' ))
 Plugin 'Valloric/YouCompleteMe'
 endif 
+Plugin 'yyq123/vim-syntax-logfile'
 
 " =======================================================
